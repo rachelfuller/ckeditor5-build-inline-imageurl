@@ -21,6 +21,7 @@ import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
+import InsertImage from './insertimage';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
@@ -48,6 +49,7 @@ InlineEditor.builtinPlugins = [
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
+	InsertImage,
 	Indent,
 	Link,
 	List,
@@ -75,6 +77,7 @@ InlineEditor.defaultConfig = {
 			'outdent',
 			'|',
 			'imageUpload',
+			'insertImage',
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
