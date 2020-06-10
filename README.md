@@ -13,6 +13,7 @@ The inline editor build for CKEditor 5. Read more about the [inline editor build
 
 ## Documentation
 
+
 See:
 
 * [Installation](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/installation.html) for how to install this package and what it contains.
