@@ -22,7 +22,7 @@ export default class InsertImage extends Plugin {
 
                 editor.model.change( writer => {
                     const imageElement = writer.createElement( 'image', {
-                        src: `/images/components/main-content/${imageUrl}`
+                        src: `/images/components/main-content/${ imageUrl }`
                     } );
 
                     // Insert the image in the current selection location.
